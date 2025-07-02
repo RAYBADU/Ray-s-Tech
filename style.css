@@ -1,0 +1,57 @@
+*{
+    font-family: poppins;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  background-color: #eae9e5;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.get-started {
+  background-color: black;
+  color: white;
+}
+.get-started:hover {
+
+  opacity: 0.8;
+}
+.first-section {
+  background-color: #eae9e5;
+}
+.bi-wifi {
+  font-size: 2rem;
+  color: #007bff;
+}
+.bi-router {
+  font-size: 2rem;
+  color: #57630c;
+}
+.bi-download {
+  font-size: 2rem;
+  color: #ff00d9;
+}
+.bi-database-fill-gear {
+  font-size: 2rem;
+  color: #ff6a00;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer-link{
+  text-decoration: none;
+  color: crimson;
+  
+
+}
+@media (min-width:768px) {
+  .card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+}
