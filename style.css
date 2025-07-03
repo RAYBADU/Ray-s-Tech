@@ -42,11 +42,12 @@
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.footer-link{
-  text-decoration: none;
-  color: crimson;
-  
-
+footer{
+    background-color:#121f31 ;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 @media (min-width:768px) {
   .card:hover{

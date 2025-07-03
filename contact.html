@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blogs</title>
+    <title>Contact Us | Tech</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
@@ -33,13 +37,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link" href="#">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contacts</a>
+              <a class="nav-link" href="#">Contacts</a>
             </li>
           </ul>
           <button class="btn get-started">Get Started</button>
@@ -50,53 +54,60 @@
     <!-- first section -->
     <section class="first-section mt-5 pt-5 pb-5">
       <div class="container">
-        <h1 class="text-center">Welcome to Our Blog</h1>
-        <p class="text-center">
-          Stay updated with the latest news and insights from Ray's Tech.
-          <br />Our finance blog covers a wide range of topics to help you make
-          informed decisions.
-        </p>
-      </div>
-      <div class="container">
-<div class="row mt-5">
-        <div class="col-md-6">
-          <img src="blog1.jpg" class="img-fluid rounded-2" alt="" />
-          <h5 class="text-center mt-4">The Ultimate Guide to Tech</h5>
-          <p class="text-center">
-            Explore the latest trends and technologies shaping the future.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Get in touch</h1>
+            <h4 class="text-secondary">Email</h4>
+            <h5 class="">raymondafrani00@gmail.com</h5>
+            <br />
+            <h4 class="text-secondary">Phone</h4>
+            <h5 class="">0530836884</h5>
+            <br />
+            <h4 class="text-secondary">Address:</h4>
+            <h5 class="">Takoradi, Ghana</h5>
+            <br />
+            <h4 class="text-secondary">Follow Me on:</h4>
+            <h5 class="">
+              <i class="bi bi-linkedin"></i> LinkedIn: Raymond Afrani <br />
+              <br />
+              <i class="bi bi-github"></i> GitHub: Raymond Afrani
+            </h5>
+          </div>
 
-        <div class="col-md-6">
-          <img src="blog2.jpg" class="img-fluid rounded-2" alt="" />
-          <h5 class="text-center mt-4">
-            Understanding AI and Machine Learning
-          </h5>
-          <p class="text-center">
-            A deep dive into the world of artificial intelligence and its
-            applications.
-          </p>
-        </div>
+          <div class="col-md-6 mt-2">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Enter your name"
+              aria-label="default input example"
+            />
 
-        <div class="col-md-6">
-          <img src="blog3.jpg" class="img-fluid rounded-2" alt="" />
-          <h5 class="text-center mt-4">The Future of Cybersecurity</h5>
-          <p class="text-center">
-            Insights into the evolving landscape of cybersecurity threats and
-            solutions.
-          </p>
-        </div>
-        <div class="col-md-6">
-          <img src="blog4.jpg" class="img-fluid rounded-2" alt="" />
-          <h5 class="text-center mt-4">Exploring Quantum Computing</h5>
-          <p class="text-center">
-            An introduction to the principles of quantum computing and its
-            potential impact.
-          </p>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter your email here"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Enter your message here"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary">Send Message</button>
+          </div>
         </div>
       </div>
     </section>
-     <!-- footer -->
+    <!-- footer -->
     <footer class="pt-5 pb-5">
       <div class="container">
         <h1 class="pt-2 pb-2 text-center text-white">
@@ -139,6 +150,7 @@
         <p class="text-center text-white mt-5">&copy; 2025 Ray's Tech. All rights reserved. <br> Built by Raymond...</p>
       </div>
     </footer>
+
     <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -25,9 +25,13 @@
 .card{
     border: none;
 }
-.footer-link{
-  text-decoration: none;
-  color: crimson;
+
   
 
+footer{
+    background-color:#121f31 ;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
